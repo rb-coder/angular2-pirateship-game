@@ -1,0 +1,30 @@
+div {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: url('./app/ship_rotate.png') no-repeat 50% 0%;
+}
+div.South {
+    background-position-y: 0px;
+}
+div.SouthEast {
+    background-position-y: -80px;
+}
+div.East {
+    background-position-y: -160px;
+}
+div.NorthEast {
+    background-position-y: -240px;
+}
+div.North {
+    background-position-y: -320px;
+}
+div.NorthWest {
+    background-position-y: -400px;
+}
+div.West {
+    background-position-y: -480px;
+}
+div.SouthWest {
+    background-position-y: -560px;
+}

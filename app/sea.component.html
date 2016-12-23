@@ -1,0 +1,4 @@
+<div>
+    <ng-content></ng-content>
+    <div class="explosion" [style.top]="collisionPosition.top + 'px'" [style.left]="collisionPosition.left + 'px'" *ngIf="collision"></div>
+</div>

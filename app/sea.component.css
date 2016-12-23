@@ -1,0 +1,16 @@
+div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('./app/water.png') repeat;
+}
+
+div > div.explosion {
+    width: 140px;
+    height: 140px;
+    margin-top: -30px;
+    margin-left: -30px;
+    background: url('./app/explosion.png') no-repeat;
+}
